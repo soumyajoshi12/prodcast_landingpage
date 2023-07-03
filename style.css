@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+#left{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(241,237,233);
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#play{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(25,29,33);
+    color: rgb(241,237,233);
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+#search{
+    width: 35%;
+    height: 60%;
+    border-bottom: 1px solid rgba(25, 29, 33, 0.619);
+    margin-left: 50px;
+    color: rgb(25,29,33);
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: space-evenly;
+}
+
+#text{
+    position: relative;
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 22%;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#text h1{
+    font-size: 60px;
+    display: flex;
+}
+
+#nn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -7%;
+}
+
+#text h1>img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 32%;
+    top: 49%;
+}
+
+#text p{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .5;
+}
+
+#buttons{
+    width: 60%;
+    height: 15%;
+    justify-content: space-between;
+}
+
+#free{
+    width: 45%;
+    height: 80%;
+    background-color: rgb(255, 145, 0);
+    border-radius: 50px;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+}
+
+#apple{
+    width: 45%;
+    height: 80%;
+    background-color: rgb(25,29,33);
+    border-radius: 50px;
+    color: white;
+    justify-content: center;
+}
+
+#dd{
+    font-size: 9px;
+}
+
+#dd h5{
+    font-size: 12px;
+}
+
+#scroll{
+    width: 30%;
+    height: 5%;
+    position: absolute;
+    left: 15%;
+    bottom: 5%;
+    display: flex;
+}
+
+#l{
+    padding: 10px;
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid black;
+    transform: rotate(10deg);
+}
+
+#r{
+    width: 70%;
+    height: 100%;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+#right{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(25,29,33);
+    position: relative;
+}
+
+#this{
+    width: 55%;
+    height: 30%;
+    margin-left: 60px;
+}
+
+.blog{
+    width: 32%;
+    height: 100%;
+    border-right: 1px solid  rgb(241,237,233);
+    justify-content: center;
+    color: rgb(241,237,233);
+    font-size: 12px;
+}
+
+#course{
+    border-left: 1px solid  rgb(241,237,233);
+}
+
+#en{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(241,237,233);
+    border-radius: 100px;
+    color: rgb(241,237,233);
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 90px;
+}
+
+#pod{
+    width: 35%;
+    height: 35%;
+    background-image: url(https://i.pinimg.com/originals/c9/09/6b/c9096ba883bd00980f74ba906d59a9b5.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    padding: 20px;
+}
+
+#pod i{
+    color: rgb(254, 119, 22);
+    margin-right: 10px;
+}
+
+#box{
+    width: 100%;
+    height: 10%;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+#adam{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(248,206,101);
+    border-radius: 30px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: rgb(30, 30, 30);
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 99;
+}
+
+#adam h3{
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#pic{
+    width: 90%;
+    height: 75%;
+}
+
+#pic img{
+    width: 100%;
+    height: 100%;
+}
+
+#brown{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(211,178,123);
+    padding: 10px 50px 10px 50px;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 50px;
+    color: white;
+    justify-content: center;
+}
+
+#days{
+    width: 35%;
+    height: 30%;
+    background-image: url(https://i.discogs.com/s91HUIsCkcqMcXHuIyAPjwIxzYxL6WKOnZBKsYh38ts/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMzc5/MjIxLTE1NTM4ODI4/OTctNjQ0Ny5qcGVn.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+
+#music{
+    width: 55%;
+    height: 20%;
+    background-color: rgba(158, 158, 158, 0.409);
+    border-radius: 30px;
+    position: absolute;
+    left: -13%;
+    top: 72%;
+    z-index: 999;
+    padding: 15px;
+    color: rgba(50, 50, 50, 0.639);
+}
+
+#deep{
+    width: 100%;
+    height: 25%;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+#deep h5{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#range{
+    width: 100%;
+    height: 5px;
+    background-color: rgba(184, 184, 184, 0.619);
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#white{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#btns{
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.719);
+    justify-content: center;
+}
+
+#right>img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 39%;
+    top: 72%;
+    z-index: 9999;
+}
+
